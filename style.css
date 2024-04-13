@@ -1,0 +1,137 @@
+
+
+
+/* GENERAL SETTING */
+
+/** {
+  box-sizing: border-box;
+}*/
+
+body {
+ font-size: 24px;
+ font-family:'Lato', Sans-serif;
+ background-color: ghostwhite; 
+ margin: 0;
+ padding: 0;
+ line-height:120%;
+ box-sizing: border-box;
+}
+
+/* CONTAINER */
+
+#container {
+  width: 85%;
+  /*height: 100vh;*/
+  margin: 1% auto;
+  /*background-color: orange;
+  border: 3px solid black;*/
+  padding: 5%;
+}
+
+/* HEADER */
+
+h1, 
+h2,
+h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 150%;
+  padding: 15px 5px;
+  background-color: royalblue;
+  color: white;
+  margin: 0;
+  line-height: 121%;
+}
+
+h2 {
+  color: royalblue;
+}
+
+h3 {
+  /*text-decoration: underline;*/
+  border-bottom-right-radius: 75%;
+  background-color: royalblue;
+  color: white;
+  padding: 8px 0;
+  text-align: center;
+  margin: 0 5% 12% 5%;
+}
+
+section {
+  padding-top: 50px;
+}
+
+.intro p {
+  font-size: 80%;
+  color: white;
+  padding: 30px;
+  background-color: royalblue;
+  border-radius: 25%;
+}
+
+.skill-box ul {
+  font-size: 75%;
+  list-style: none;
+  padding: 5px;
+  /*border: 2px solid greenyellow;*/
+}
+
+li {
+  background-color: royalblue;
+  color: white;
+  margin: 10px 0;
+  padding: 3px 15px;
+}
+
+footer {
+  padding: 15px;
+}
+
+input, textarea, button {
+  width: 100%;
+  margin: 0.5em auto;
+}
+
+label {
+  width: 100%;
+  margin-top: 2em;
+}
+
+input, textarea {
+  border-radius:0.3em;
+  outline: focus;
+}
+
+input {
+  padding: 0.8em 0.1em;
+}
+
+button {
+  font-size: 90%;
+  font-weight: bold;
+  /*background-color: orangered;*/
+  padding: 0.5em;
+  border-radius: 0.3em;
+  text-decoration: none;
+  color: royalblue;
+}
+
+.contact p {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+
+address {
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  margin: 0.2em 0;
+  padding: 0;
+  color: royalblue;
+}
